@@ -1,0 +1,78 @@
+body {
+    background-image: url(../images/Background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+
+
+section div {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+section div img {
+    width: 110%;
+    
+}
+
+
+
+.textos {
+    flex-direction:column ; /* Alinhar em coluna*/
+    color: rgb(0, 23, 99); /* Escolha a cor do texto que contraste com a imagem */
+    text-align: left; /* Centraliza o texto */
+    font-family: Arial, sans-serif; /* Define a fonte Arial */
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+.textos h2 {
+    font-size: 30px;
+}
+
+
+
+.textos p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+
+.steam {
+    margin-top: 30px;
+    width: 20%;
+    transition: 0.3s;
+}
+
+
+
+.steam:hover {
+    transform: scale(1.2);
+}
+
+
+
+.steam img {
+    width: 100%;
+}
+
+
