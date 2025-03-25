@@ -1,0 +1,28 @@
+body {
+    background-image: url(../images/Background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 25, 133);
+    letter-spacing: 9px;
+    font-size: 30px;
+}
+
+
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 23, 99);
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-size: 21px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
