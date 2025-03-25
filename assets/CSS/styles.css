@@ -1,0 +1,54 @@
+body {
+    background-image: url("../images/Background.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 25, 133);
+    text-align: center;
+    letter-spacing: 9px;
+    font-size: 30px;
+}
+
+
+
+.jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3%; /*Espaço interno entre a borda e a imagem*/
+    padding-top: 1%;
+}
+
+
+
+.jogos div {
+    border-radius: 8px; /*Cantos arredondados*/
+    padding: 6px; /*Espaço interno entre a borda e a imagem*/
+    margin-bottom: 3% ;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+
+
+.jogos div:hover {
+    transform: scale(1.2);
+}
+
+
+
+.jogos div p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(0, 23, 99);
+    margin: 7px;
+    font-size: 20px;
+}
+
+
